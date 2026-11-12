@@ -1,0 +1,127 @@
+{
+  "project": "Game Making Desk",
+  "purpose": "Plan \u2192 build \u2192 verify \u2192 document \u2192 demonstrate \u2192 deliver",
+  "activeQuestionId": "sample-1",
+  "questions": [
+    {
+      "id": "sample-1",
+      "title": "Scene",
+      "question": "What should the player see first?",
+      "eyebrow": "DESIGN / 01",
+      "referenceImage": "/doc-image-1.png",
+      "referenceCaption": "Bundled placeholder; replace with your own image",
+      "sceneFacts": [],
+      "seeds": [],
+      "workItems": [],
+      "nextWork": "Turn the selected answers into a concrete draft."
+    },
+    {
+      "id": "sample-2",
+      "title": "Goal",
+      "question": "What must the player accomplish?",
+      "eyebrow": "DESIGN / 02",
+      "referenceImage": "/doc-image-1.png",
+      "referenceCaption": "Bundled placeholder; replace with your own image",
+      "sceneFacts": [],
+      "seeds": [],
+      "workItems": [],
+      "nextWork": "Turn the selected answers into a concrete draft."
+    },
+    {
+      "id": "sample-3",
+      "title": "Choice",
+      "question": "Which decision makes this scene interesting?",
+      "eyebrow": "DESIGN / 03",
+      "referenceImage": "/doc-image-1.png",
+      "referenceCaption": "Bundled placeholder; replace with your own image",
+      "sceneFacts": [],
+      "seeds": [],
+      "workItems": [],
+      "nextWork": "Turn the selected answers into a concrete draft."
+    },
+    {
+      "id": "sample-4",
+      "title": "Change",
+      "question": "What should change in this iteration?",
+      "eyebrow": "DESIGN / 04",
+      "referenceImage": "/doc-image-1.png",
+      "referenceCaption": "Bundled placeholder; replace with your own image",
+      "sceneFacts": [],
+      "seeds": [],
+      "workItems": [],
+      "nextWork": "Turn the selected answers into a concrete draft."
+    },
+    {
+      "id": "sample-5",
+      "title": "Delivery",
+      "question": "Which document, playable build and video are needed?",
+      "eyebrow": "DESIGN / 05",
+      "referenceImage": "/doc-image-1.png",
+      "referenceCaption": "Bundled placeholder; replace with your own image",
+      "sceneFacts": [],
+      "seeds": [],
+      "workItems": [],
+      "nextWork": "Turn the selected answers into a concrete draft."
+    },
+    {
+      "id": "sample-summary",
+      "title": "Round summary",
+      "question": "Review prioritized answers.",
+      "hidden": true
+    },
+    {
+      "id": "internal-storyboard-layout",
+      "title": "Storyboard data",
+      "question": "Internal layout record",
+      "hidden": true,
+      "internal": true
+    }
+  ],
+  "rounds": [
+    {
+      "id": "sample-round",
+      "questionIds": [
+        "sample-1",
+        "sample-2",
+        "sample-3",
+        "sample-4",
+        "sample-5"
+      ],
+      "summaryId": "sample-summary"
+    }
+  ],
+  "activeRoundId": "sample-round",
+  "boardAssets": [
+    {
+      "id": "/doc-image-1.png",
+      "src": "/doc-image-1.png",
+      "title": "Sample storyboard image"
+    }
+  ],
+  "waypoints": [
+    {
+      "label": "Sources",
+      "status": "current"
+    },
+    {
+      "label": "Tool usage",
+      "status": "pending"
+    },
+    {
+      "label": "Template comparison",
+      "status": "pending"
+    },
+    {
+      "label": "Implementation",
+      "status": "pending"
+    },
+    {
+      "label": "Video",
+      "status": "pending"
+    },
+    {
+      "label": "Delivery",
+      "status": "pending"
+    }
+  ]
+}

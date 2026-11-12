@@ -1,0 +1,140 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "summary",
+    "draft",
+    "workItems",
+    "nextQuestion",
+    "nextQuestions"
+  ],
+  "properties": {
+    "summary": {
+      "type": "string"
+    },
+    "draft": {
+      "type": "string"
+    },
+    "workItems": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "nextQuestion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "question",
+        "eyebrow",
+        "sceneFacts",
+        "seeds",
+        "why",
+        "nextWork"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "question": {
+          "type": "string"
+        },
+        "eyebrow": {
+          "type": "string"
+        },
+        "sceneFacts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "label",
+              "text"
+            ],
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "seeds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "why": {
+          "type": "string"
+        },
+        "nextWork": {
+          "type": "string"
+        }
+      }
+    },
+    "nextQuestions": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "question",
+          "eyebrow",
+          "sceneFacts",
+          "seeds",
+          "why",
+          "nextWork"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "question": {
+            "type": "string"
+          },
+          "eyebrow": {
+            "type": "string"
+          },
+          "sceneFacts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "label",
+                "text"
+              ],
+              "properties": {
+                "label": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "seeds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "why": {
+            "type": "string"
+          },
+          "nextWork": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"type":"object","additionalProperties":false,"required":["reply","workItems"],"properties":{"reply":{"type":"string"},"workItems":{"type":"array","items":{"type":"string"}}}}
