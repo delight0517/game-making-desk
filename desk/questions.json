@@ -13,7 +13,8 @@
       "sceneFacts": [],
       "seeds": [],
       "workItems": [],
-      "nextWork": "Turn the selected answers into a concrete draft."
+      "nextWork": "Turn the selected answers into a concrete draft.",
+      "waypoint": 4
     },
     {
       "id": "sample-2",
@@ -25,7 +26,8 @@
       "sceneFacts": [],
       "seeds": [],
       "workItems": [],
-      "nextWork": "Turn the selected answers into a concrete draft."
+      "nextWork": "Turn the selected answers into a concrete draft.",
+      "waypoint": 4
     },
     {
       "id": "sample-3",
@@ -37,7 +39,8 @@
       "sceneFacts": [],
       "seeds": [],
       "workItems": [],
-      "nextWork": "Turn the selected answers into a concrete draft."
+      "nextWork": "Turn the selected answers into a concrete draft.",
+      "waypoint": 4
     },
     {
       "id": "sample-4",
@@ -49,7 +52,8 @@
       "sceneFacts": [],
       "seeds": [],
       "workItems": [],
-      "nextWork": "Turn the selected answers into a concrete draft."
+      "nextWork": "Turn the selected answers into a concrete draft.",
+      "waypoint": 4
     },
     {
       "id": "sample-5",
@@ -61,13 +65,15 @@
       "sceneFacts": [],
       "seeds": [],
       "workItems": [],
-      "nextWork": "Turn the selected answers into a concrete draft."
+      "nextWork": "Turn the selected answers into a concrete draft.",
+      "waypoint": 6
     },
     {
       "id": "sample-summary",
       "title": "Round summary",
       "question": "Review prioritized answers.",
-      "hidden": true
+      "hidden": true,
+      "waypoint": 4
     },
     {
       "id": "internal-storyboard-layout",
@@ -75,6 +81,48 @@
       "question": "Internal layout record",
       "hidden": true,
       "internal": true
+    },
+    {
+      "id": "waypoint-summary-1",
+      "title": "WP1 summary",
+      "question": "Review answers for this stage.",
+      "waypoint": 1,
+      "hidden": true
+    },
+    {
+      "id": "waypoint-summary-2",
+      "title": "WP2 summary",
+      "question": "Review answers for this stage.",
+      "waypoint": 2,
+      "hidden": true
+    },
+    {
+      "id": "waypoint-summary-3",
+      "title": "WP3 summary",
+      "question": "Review answers for this stage.",
+      "waypoint": 3,
+      "hidden": true
+    },
+    {
+      "id": "waypoint-summary-4",
+      "title": "WP4 summary",
+      "question": "Review answers for this stage.",
+      "waypoint": 4,
+      "hidden": true
+    },
+    {
+      "id": "waypoint-summary-5",
+      "title": "WP5 summary",
+      "question": "Review answers for this stage.",
+      "waypoint": 5,
+      "hidden": true
+    },
+    {
+      "id": "waypoint-summary-6",
+      "title": "WP6 summary",
+      "question": "Review answers for this stage.",
+      "waypoint": 6,
+      "hidden": true
     }
   ],
   "rounds": [
