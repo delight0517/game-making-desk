@@ -123,6 +123,13 @@
       "question": "Review answers for this stage.",
       "waypoint": 6,
       "hidden": true
+    },
+    {
+      "id": "internal-question-lifecycle",
+      "title": "Question lifecycle",
+      "question": "Internal trash metadata",
+      "hidden": true,
+      "internal": true
     }
   ],
   "rounds": [
